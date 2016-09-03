@@ -1,0 +1,14 @@
+# Site settings
+name: Village Sweep
+slogan: Belfast Chimney Sweeping Service
+url:
+baseurl: ""
+description:
+email: sparkosone@hotmail.com
+
+# Build settings
+permalink: pretty
+exclude: ["node_modules", "bower_components", "font-awesome-4.5.0", "gulpfile.js", "bower.json", "package.json", "js", "frog_up.sh"]
+
+gems:
+  - jekyll-sitemap

@@ -1,0 +1,35 @@
+//body
+$body-background-color: #fff;
+$body-color: #555;
+$body-font-weight: 300;
+$body-font-size: 18px; // 1rem;
+$body-font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+
+
+// links
+$link-color: #16a085;
+$link-hov-foc: lighten(#16a085, 10%);
+//$link-hov-foc: #19B798
+
+//headings
+$heading-font-family: "Raleway", Arial, "Helvetica Neue", sans-serif;
+$heading-font-weight-special: 500;
+$heading-color-special: #16a085;
+$heading-color-special2: #2ecc71; //brighter green for black background
+$heading-border-color: lighten(#999, 20%);
+
+//paragraph
+$paragraph-line-height: 1.6;
+$paragraph-dark: #424242;
+
+//blockquote
+$blockquote-color: #16a085;
+
+//icons
+$icon-color: #16a085;
+
+//background colors
+$background-gray: #f3f3f3;
+$mistyrose: #FFE4E1;
+$almost-black: #2f2f2f;
+$not-quite-black: #222;
