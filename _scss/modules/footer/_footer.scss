@@ -12,7 +12,7 @@
 	#footer-box-1{
 		h4{
 			font-weight: 600;
-			color: #fff;
+			color: #337AB7;
 		}
 		p{
 			font-size: 16px;
@@ -40,13 +40,13 @@
 		}
 
 		ul#social li a{
-			color: #19b798;
+			color: #337AB7;
 			i{color: #ccc;}
 			transition: all 0.3s ease;
 			&:hover, &:focus{
-				color: lighten(#19b798, 10%);
+				color: lighten(#337AB7, 10%);
 				text-decoration: none;
-				i{color: lighten(#19b798, 10%);}
+				i{color: lighten(#337AB7, 10%);}
 			}
 		}
 
@@ -56,7 +56,7 @@
 	#phone_alert{
 		margin-top: 2px;
 		padding: 10px;
-		background-color: #19b798;
+		background-color: #337AB7;
 		color: #fff;
 	}
 
@@ -96,7 +96,7 @@
 		text-align: right;
 
 		span{
-			font-family: lobster;
+			font-family: 'Marcellus', serif;
 			font-size: 22px;
 		}
 	}
