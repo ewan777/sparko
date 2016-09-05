@@ -2,7 +2,7 @@
 $body-background-color: #fff;
 $body-color: #555;
 $body-font-weight: 300;
-$body-font-size: 18px; // 1rem;
+$body-font-size: 18px;
 $body-font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
 
 
@@ -13,8 +13,8 @@ $link-hov-foc: lighten(#337AB7, 10%);
 //headings
 $heading-font-family: "Raleway", Arial, "Helvetica Neue", sans-serif;
 $heading-font-weight-special: 500;
-$heading-color-special: #16a085;
-$heading-color-special2: #2ecc71; //brighter green for black background
+$heading-color-special: #337AB7;
+$heading-color-special2: #337AB7;
 $heading-border-color: lighten(#999, 20%);
 
 //paragraph
@@ -22,7 +22,7 @@ $paragraph-line-height: 1.6;
 $paragraph-dark: #424242;
 
 //blockquote
-$blockquote-color: #16a085;
+$blockquote-color: #337AB7;
 
 //icons
 $icon-color: #16a085;
