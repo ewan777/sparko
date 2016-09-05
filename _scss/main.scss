@@ -12,11 +12,11 @@ $brand-primary: #337AB7;
 
 @import "tools/mixins";
 
-@import "modules/header/nav";
+@import "modules/header/nav-home";
+@import "modules/header/nav-site";
 @import "modules/header/header-home";
 @import "modules/header/header-site";
 
-//@import "modules/footer/footer-boxes";
 @import "modules/footer/footer";
 
 @import "modules/home/cards";
@@ -30,7 +30,8 @@ $brand-primary: #337AB7;
 
 @import "mq/header/header-home-mq";
 @import "mq/header/header-site-mq";
-@import "mq/header/nav-mq";
+@import "mq/header/nav-home-mq";
+@import "mq/header/nav-site-mq";
 
 @import "mq/footer/footer-boxes-mq";
 @import "mq/footer/footer-mq";

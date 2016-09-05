@@ -12,7 +12,7 @@
         input{
           height: 50px;
           width: 80%;
-          border: 3px solid #16a085;
+          border: 3px solid #337AB7;
         }
       }
 
@@ -23,7 +23,7 @@
         input{
           height: 50px;
           width: 80%;
-          border: 3px solid #16a085;
+          border: 3px solid #337AB7;
         }
       }
 
@@ -40,7 +40,7 @@
         textarea{
           height: 175px;
           width: 80%;
-          border: 3px solid #16a085;
+          border: 3px solid #337AB7;
         }
 
       } // end form group 3
@@ -53,12 +53,12 @@
         input{
           padding: 10px;
           color: #fff;
-          background-color: #16a085;
+          background-color: #337AB7;
           border: none;
           transition: all 0.3s ease-in-out;
 
           &:hover, &:focus{
-            background-color: lighten(#16a085, 20%);
+            background-color: lighten(#337AB7, 20%);
           }
         }
       } //end form group 4
