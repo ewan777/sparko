@@ -1,6 +1,6 @@
  #masthead-2{
   min-height: 400px;
-  background-image: url('{{ site.baseurl }}/images/headers/belfast-long.jpg');
+  background-image: url('../images/headers/rooftops-4.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,20 +8,23 @@
 }
 
 #masthead-2 #branding{
-  width: 22em;
+  width: 19em;
   position: absolute;
-  top:0;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: fade-out(#ccc, 0.55);
+  top: 15px;
+  left: 15px;
+  background-color: transparent;
+  border: none;
+  border: solid 1px #fff;
+  border-radius: 10px;
+
   h1{
     padding: 0;
     margin: 0.3em 0;
   }
   h1 a{
+    font-size: 35px;
     display: block;
-    font-size: 41px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Marcellus', serif;
     color: #fff;
     margin: 0;
     &:hover, &:focus{
@@ -30,7 +33,7 @@
     }
   }
   h2{
-    font-size: 24px;
+    font-size: 16px;
     margin: 0.3em 0;
     color: $nice-black;
     font-weight: bold;

@@ -1,8 +1,7 @@
-.navbar-default{
+#masthead-1 .navbar-default{
   position: absolute;
   top: 15px;
   right: 15px;
-  background-color: fade-out(#ccc, 0.45);
   background-color: transparent;
   border: none;
 }
@@ -31,4 +30,13 @@
 .navbar-default .navbar-collapse ul.navbar-nav li.active a{
   background-color: transparent;
   color: $nice-black;
+}
+
+#masthead-2 .navbar-default{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1px;
+  background-color: fade-out(#ccc, 0.45);
 }
